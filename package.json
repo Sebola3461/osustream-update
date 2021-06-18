@@ -1,0 +1,29 @@
+{
+    "name": "osustream-updater",
+    "version": "1.0.0",
+    "description": "banana",
+    "main": "app.js",
+    "dependencies": {
+        "electron": "^13.1.2",
+        "electron-packager": "^15.2.0",
+        "nodejs-file-downloader": "^4.7.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "electron .",
+        "package": "electron-packager ./ --out=dist/win --platform=win32 --arch=x64 --app-version=1.0.0 --win32metadata.requested-execution-level=requireAdministrator"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Sebola3461/osustream-update.git"
+    },
+    "keywords": [
+        "cu"
+    ],
+    "author": "Sebola3461",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Sebola3461/osustream-update/issues"
+    },
+    "homepage": "https://github.com/Sebola3461/osustream-update#readme"
+}
